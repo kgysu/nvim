@@ -8,6 +8,13 @@ Search and replace:
 
 
 
+Copy Paste System-Clipboard:
+
+copy: `"+y`
+
+paste: `"+p` or `<C-v>`
+
+
 
 
 ### Links

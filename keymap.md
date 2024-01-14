@@ -141,7 +141,7 @@
 ### Neo-Tree
 
 - open filesystem: `<C-n>`
-
+- toggle hidden files: `H`
 
 
 
