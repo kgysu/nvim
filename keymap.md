@@ -7,6 +7,30 @@
 ## Navigation
 
 
+| Action | Keymap |
+| ------ | ------ |
+| left   | `h`    |
+| down   | `j`    |
+| up     | `k`    |
+| right  | `l`    |
+|        |        |
+| next Word | `w` |
+| prev Word | `b` |
+|   |   |
+| start of line | `0` |
+| start of line-text | `_` |
+| end of line | `$` |
+|   |   |
+| start of file | `gg` |
+| end of file | `G` |
+|   |   |
+| forward to char | `f<char>` |
+| backward to char | `F<char>` |
+| forward to char (ex) | `t<char>`|
+| backward to char (ex) | `T<char>` |
+|   |   |
+
+
 - left: `h`
 - down: `j`
 
@@ -26,7 +50,9 @@
 
 
 - go forward to next char: `f<char>`
-- go to char: `ft<char>`
+- go backward to char: `F<char>`
+- go forward to char: `t<char>`
+- go backward to char: `T<char>`
 
 
 

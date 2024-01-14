@@ -1,5 +1,14 @@
 # Notes
 
+## Tipps
+
+Search and replace:
+
+`:%s/article/tutorial/g`
+
+
+
+
 
 ### Links
 
