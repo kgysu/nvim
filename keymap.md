@@ -5,6 +5,18 @@
 
 
 
+## Personal
+
+| Action | Keymap |
+| ------ | ------ |
+| write  | `<C-s>` |
+| quit all | `<S-q>` |
+|   |   |
+| write recording | `<leader>q` |
+|   |   |
+
+
+
 
 ## Navigation
 
@@ -100,6 +112,16 @@
 
 
 ## Plugins
+
+
+### Debugger
+
+| Action | Keymap |
+| ------ | ------ |
+| toggle breakpoint | `<leader>dt` |
+| continue | `<leader>dc` |
+|   |   |
+
 
 
 ### LSP

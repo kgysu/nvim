@@ -5,6 +5,7 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.g.mapleader = " "
+vim.wo.number = true
 
 vim.keymap.set("n", "<C-s>", ":w<CR>", {})
 vim.keymap.set("n", "<S-q>", ":qa<CR>", {})
