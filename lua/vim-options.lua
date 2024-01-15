@@ -12,4 +12,12 @@ vim.keymap.set("n", "<S-q>", ":qa<CR>", {})
 vim.keymap.set("n", "<leader>q", '@q<CR>', {})
 -- vim.keymap.set("n", "<leader><C-c>", '"+y', {})
 -- vim.keymap.set("n", "<leader><C-v>", '"+p', {})
+vim.keymap.set("n", "<C-d>", "<C-d>zz", {})
+vim.keymap.set("n", "<C-u>", "<C-u>zz", {})
+
+vim.keymap.set("n", "n", "nzzzv", {})
+vim.keymap.set("n", "N", "Nzzzv", {})
+
+vim.keymap.set("v", "<leader>p", "\"_dP", {})
+
 

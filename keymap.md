@@ -40,8 +40,16 @@
 |   |   |
 | forward to char | `f<char>` |
 | backward to char | `F<char>` |
+| repeat f | `;` `,` |
 | forward to char (ex) | `t<char>`|
 | backward to char (ex) | `T<char>` |
+|   |   |
+| half page up | `C-u` |
+| half page down | `C-d` |
+| next paragraph up | `{` |
+| next paragraph down | `}` |
+|   |   |
+| go to line number | `:100` |
 |   |   |
 
 
@@ -85,10 +93,15 @@
 | delete/cut line | `dd` |
 | delete word | `dw` |
 | delete to eol | `D` |
+| delete | `d` |
+| cut + i | `c` |
 |   |   |
 | delete char | `x` |
+| replace char | `r` |
 |   |   |
 | search string | `/<string>` |
+| next result | `n` |
+| prev result | `N` |
 |   |   |
 
 
@@ -106,6 +119,12 @@
 | shift left | `<` |
 |   |   |
 | auto indent | `==` |
+|   |   |
+| select in between char | `vi<char>` |
+| if !between, next in line |   |
+| " and char | `va<char>` |
+| highlight word | `viw` |
+| high all word | `viW` |
 |   |   |
 
 
