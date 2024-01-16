@@ -9,6 +9,7 @@ vim.wo.number = true
 
 vim.keymap.set("n", "<C-s>", ":w<CR>", {})
 vim.keymap.set("n", "<S-q>", ":qa<CR>", {})
+vim.keymap.set("n", "q", ":q<CR>", {})
 vim.keymap.set("n", "<leader>q", '@q<CR>', {})
 -- vim.keymap.set("n", "<leader><C-c>", '"+y', {})
 -- vim.keymap.set("n", "<leader><C-v>", '"+p', {})

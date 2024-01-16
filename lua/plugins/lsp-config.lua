@@ -12,36 +12,32 @@ return {
 		opts = {
 			auto_install = true,
 		},
-		--[[ config = function()
+		config = function()
 			require("mason-lspconfig").setup({
 				ensure_installed = {
 					"lua_ls",
 					"tsserver",
-					"angularls",
-					"arduino_language_server",
-					"asm_lsp",
 					"bashls",
 					"dockerls",
 					"docker_compose_language_service",
-					"elp",
-					"erlangls",
-					"golangci_lint_ls",
+					"goimports",
 					"gopls",
+          "delve",
 					"html",
 					"htmx",
 					"cssls",
 					"helm_ls",
 					"jsonls",
 					"biome",
+          "java-test",
+          "java-debug-adapter",
 					"jdtls",
 					"java_language_server",
 					"jqls",
 					"remark_ls",
-					"rust_analyzer",
-					"sqlls",
 				},
 			})
-		end,]]
+		end,
 	},
 	{
 		"neovim/nvim-lspconfig",
@@ -57,6 +53,9 @@ return {
         capabilities = capabilities
       })
 			lspconfig.html.setup({
+        capabilities = capabilities
+      })
+      lspconfig.gopls.setup({
         capabilities = capabilities
       })
 
