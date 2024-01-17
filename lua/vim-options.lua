@@ -21,4 +21,4 @@ vim.keymap.set("n", "N", "Nzzzv", {})
 
 vim.keymap.set("v", "<leader>p", "\"_dP", {})
 
-
+vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>", {})
