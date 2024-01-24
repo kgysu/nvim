@@ -89,6 +89,7 @@
 |   |   |
 | paste | `p` |
 | paste before | `P` |
+| paste sys-clip | `<C-S-v>` |
 |   |   |
 | delete/cut line | `dd` |
 | delete word | `dw` |
