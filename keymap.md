@@ -4,6 +4,10 @@
 - Tools
 
 
+Show keymap for mode: `:nmap` `:vmap` `:imap`
+
+
+
 
 ## Personal
 
