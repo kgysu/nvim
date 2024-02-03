@@ -56,6 +56,16 @@ Go delve:
 
 
 
+
+## Golang functions
+
+´:GoIfErr´
+
+´:GoTagAdd <json|yaml>´
+
+
+
+
 ## NerdFont
 
 Install Font and use in NeoVim.
@@ -84,4 +94,3 @@ OR
 
 
 *Note*: On WSL you have to install the Font in Windows first and then change the settings in Terminal.
-
