@@ -1,4 +1,3 @@
-
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
@@ -19,7 +18,8 @@ vim.api.nvim_create_autocmd('BufEnter', {
     if vim.bo.filetype == "zig" then
       vim.cmd.colorscheme("gruvbox")
     elseif vim.bo.filetype == "go" or vim.bo.filetype == "nix" then
-      vim.cmd.colorscheme("tokyonight-night")
+      vim.cmd.colorscheme("gruvbox")
+      -- vim.cmd.colorscheme("tokyonight-night")
     else
       vim.cmd.colorscheme("gruvbox")
     end
@@ -27,6 +27,15 @@ vim.api.nvim_create_autocmd('BufEnter', {
 })
 
 
+-- Configure Terminal
+vim.api.nvim_create_autocmd('TermOpen', {
+  desc = 'Configure terminal',
+  group = vim.api.nvim_create_augroup('custom-term-open', { clear = true }),
+  callback = function()
+    vim.opt.number = false
+    vim.opt.relativenumber = false
+  end,
+})
 
 
 
@@ -43,9 +52,9 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-  'tpope/vim-sleuth', 
+  'tpope/vim-sleuth',
 
-  { 
+  {
     'lewis6991/gitsigns.nvim',
     opts = {
       signs = {
@@ -81,4 +90,3 @@ require('lazy').setup({
     },
   },
 })
-
