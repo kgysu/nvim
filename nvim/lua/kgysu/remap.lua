@@ -7,7 +7,7 @@ vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'go down and center cursor' })
 vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'go up and center cursor' })
 
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-vim.keymap.set('n', '<leader>t', ':vs term://zsh<CR>', { desc = 'Open terminal' })
+vim.keymap.set('n', '<leader>te', ':vs term://zsh<CR>', { desc = 'Open terminal' })
 vim.keymap.set('n', '<leader>st', function()
   vim.cmd.vnew()
   vim.cmd.term()
