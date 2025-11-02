@@ -1,7 +1,7 @@
 -- vim.opt.guicursor = ""
 
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 vim.g.have_nerd_font = true
 
 vim.cmd("set notimeout")
@@ -10,7 +10,7 @@ vim.cmd("set notimeout")
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.opt.mouse = 'a'
+vim.opt.mouse = "a"
 
 vim.opt.breakindent = true
 
@@ -19,7 +19,7 @@ vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
-vim.opt.signcolumn = 'yes'
+vim.opt.signcolumn = "yes"
 
 vim.opt.updatetime = 50
 vim.opt.timeoutlen = 300
@@ -28,9 +28,9 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.list = false
-vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "  ", trail = "·", nbsp = "␣" }
 
-vim.opt.inccommand = 'split'
+vim.opt.inccommand = "split"
 
 vim.opt.cursorline = true
 
