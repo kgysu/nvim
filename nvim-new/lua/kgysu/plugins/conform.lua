@@ -37,6 +37,7 @@ return {
       javascript = { "prettier" },
       typescript = { "prettier" },
       elixir = { "mix" },
+      json = { "jq" },
     },
     formatters = {
       ["clang-format"] = {
