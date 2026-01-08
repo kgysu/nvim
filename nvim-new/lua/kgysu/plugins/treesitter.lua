@@ -18,6 +18,7 @@ return { -- Highlight, edit, and navigate code
       "vimdoc",
       "go",
       "zig",
+      "java",
     },
     -- Autoinstall languages that are not installed
     auto_install = true,
